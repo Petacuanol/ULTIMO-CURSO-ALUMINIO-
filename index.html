@@ -1,1 +1,87 @@
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Carpintería en Aluminio 2025</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img class="logo" src="img/logo.png" alt="Logo Carpintería en Aluminio" />
+    </div>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#galeria">Galería</a>
+      <a href="#curso">Curso</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <h1>Carpintería de Aluminio • Instalación y Terminaciones</h1>
+      <p>Venta, colocación y mantenimiento de aberturas. Sellados, DVH, corredizas, rebatibles, mosquiteros y más.</p>
+    </section>
+
+    <section id="servicios">
+      <h2>Servicios</h2>
+      <ul>
+        <li>Instalación y sellado (corredizas, rebatibles, oscilobatientes, proyectantes, banderola).</li>
+        <li>Reacondicionamiento de rodamientos y mantenimiento de cerraduras.</li>
+        <li>Colocación de DVH, mosquiteros y mamparas de baño.</li>
+        <li>Sellados exteriores con silicona (negra y transparente).</li>
+      </ul>
+    </section>
+
+    <section id="galeria">
+      <h2>Galería</h2>
+      <div class="galeria">
+        <img src="img/imagen1.jpg" alt="Trabajo 1" />
+        <img src="img/imagen2.jpg" alt="Trabajo 2" />
+        <img src="img/imagen3.jpg" alt="Trabajo 3" />
+        <img src="img/imagen4.jpg" alt="Trabajo 4" />
+      </div>
+
+      <!-- Lightbox requerido por script.js -->
+      <div id="lightbox" style="display:none;">
+        <button class="cerrar" aria-label="Cerrar">&times;</button>
+        <img id="imagen-ampliada" alt="Imagen ampliada" />
+      </div>
+    </section>
+
+    <section id="curso">
+      <h2>Curso de Carpintería de Aluminio</h2>
+      <div class="video-marco">
+        <!-- Si no subiste el video, no pasa nada: igual se ve la página -->
+        <video src="media/flyer.mp4" controls preload="metadata"></video>
+      </div>
+      <div class="modulos">
+        <div class="modulo">Corredizas</div>
+        <div class="modulo">Rebatibles</div>
+        <div class="modulo">Oscilobatiente + DVH</div>
+        <div class="modulo">Proyectantes</div>
+        <div class="modulo">Banderola</div>
+        <div class="modulo">Mosquiteros</div>
+        <div class="modulo">Mampara</div>
+        <div class="modulo">Link Softtech de Hydro / clase en vivo</div>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>Consultas: <a href="tel:+59899925303">099 925 303</a> (Christian Meneses)</p>
+      <p>Email: <a href="mailto:petacuanol@gmail.com">petacuanol@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <small>&copy; 2025 Carpintería en Aluminio. Todos los derechos reservados.</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
