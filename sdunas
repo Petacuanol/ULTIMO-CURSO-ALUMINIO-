@@ -1,0 +1,22 @@
+http:port51100
+
+ <!-- Sección galería -->
+    <section id="galeria">
+      <h2>Bienvenidos a nuestro Curso en Carpintería de Aluminio</h2>
+      <div class="galeria">
+        <img src="img/foto1.jpg" alt="Foto 1">
+        <img src="img/foto2.jpg" alt="Foto 2">
+        <img src="img/foto3.jpg" alt="Foto 3">
+        <img src="img/foto4.jpg" alt="Foto 4">
+      </div>
+    </section>
+
+    <!-- Sección videos -->
+    <section id="videos">
+      <h2>Clases en video</h2>
+      <div class="videos">
+        <video src="media/clase1.mp4" controls></video>
+        <video src="media/clase2.mp4" controls></video>
+      </div>
+    </section>
+  </main>
